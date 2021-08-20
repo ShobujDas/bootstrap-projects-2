@@ -1,0 +1,184 @@
+body, h1, h2, h3, h4, h5, h6{
+    font-family: 'Work Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+/* Header */
+.jon-header .navbar-brand{
+    font-weight: 500;
+    font-size: 21px;
+    height: 60px;
+}
+.jon-header img{
+    height: 100%;
+}
+/* slider-section */
+.slider-section{
+    background: url(../img/mbr-10.jpg) no-repeat center center ;
+    padding: 180px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.slider-caption h4{
+    margin-bottom: 40px;
+}
+
+.slider-caption h2{
+    margin-bottom: 36px;
+    font-size: 40px;
+}
+
+/* about-section */
+.about-section{
+    background: #f7f9ff;
+}
+.about-text-left{
+    margin-top: 120px;
+
+}
+.about-text-left .lead{
+    line-height: 1.5rem;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* Appilication Section */
+.application-top .muted{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.feature-item{
+    height: 200px;
+    box-shadow: 4px 5px 30px 0 rgba(64, 87, 191, 0.1);
+}
+.feature-item .left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.feature-item .left-text-sec{
+    width: 60%;
+    padding: 0 0 0 20px ;
+}
+.feature-item .left-text-sec p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+.feature-item .left-img-sec img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -100px;
+}
+
+/* Portfolia */
+.portfolio-item{}
+.portfolio-item a{
+    display: inline-block;
+    position: relative;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120,223, 0.6);
+    opacity: 0;
+    visibility: 0;
+    transition: .5s;
+}
+
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: 1;
+}
+
+/* pricing-table */
+.pricing-table-section{}
+.main-section-bg{
+    background-color:#f7f9ff ;
+}
+.pricing-tiems{
+    background-color: white;
+    padding: 50px;
+    box-shadow:  4px 5px 30px 0 rgba(64, 87, 191, 0.1);
+    border-radius: 5px ;
+}
+.pricing-tiems h1{}
+.pricing-tiems h5{}
+.pricing-tiems ul{
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+.pricing-tiems ul li{
+    color: #777;
+    font-size: 20px;
+    padding: 15px 0;
+
+}
+.pricing-tiems ul li span{
+    color: aqua;
+    display: inline-block;
+    width: 40px;
+
+}
+.pricing-item-button{
+    
+}
+.pricing-item-button a{
+    display: block;
+    padding: 15px 50px;
+    box-shadow:  4px 5px 30px 0 rgba(0, 255, 255,.4);
+}
+/* testimonial section */
+
+
+.author-info img{
+    width: 85px;
+}
+.author-info h2{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.author-info{}
+.testimonial-items span{
+    font-size: 80px;
+    opacity: .2;
+}
+
+/* about-section */
+.about-item{
+    margin-top: 90px;
+}
+.about-item .card img{
+    width: 90px;
+    height: auto;
+    margin-top: -75px;
+
+}
+.card-body p{
+    font-size: 15px;
+}
